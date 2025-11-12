@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(dir /s /b \"c:\\Users\\Chrisi\\Documents\\GitHub\\TEACHING\\AGKI-PM\")",
-      "Bash(findstr:*)"
+      "Bash(findstr:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nErstelle vollständige Kurswebsite und Session-Materialien\n\n- Professionelle Static Site (index.html + style.css) für GitHub Pages\n  - Hero Section mit LV-Informationen\n  - Card-Layout für Sessions und Reading Materials\n  - Responsive Design mit modernem CSS\n  - Verknüpfung aller PDFs und Preview-Bilder\n\n- Vollständige Sessions-Struktur für 8 Termine:\n  - Session 1: Einführung (Projektmanagement + LLM Basics)\n  - Session 2: Grundlagen LLM (Prompt + Context Engineering)\n  - Session 3: GitHub (Versionskontrolle für DH)\n  - Session 4: Projektdetailplanung (WBS, Gantt, Risikomanagement)\n  - Session 5: Agile Softwareentwicklung (Scrum, Kanban)\n  - Session 6: Anforderungsanalyse (Requirements Engineering)\n  - Session 7: Wireframing und Prototyping (Design Thinking)\n  - Session 8: Abschluss (Präsentationen, Reflexion)\n\n- Pro Session: Unterrichtsplanung.md + Skriptum.md\n  - Detaillierte Zeitpläne (09:00-11:30)\n  - Lernziele und Methodik\n  - Wissenschaftlich fundierte Inhalte\n  - Hausaufgaben mit Deadlines\n  - Umfangreiche Literaturverweise\n\n- Wissenschaftliche Fundierung durch aktuelle Forschung:\n  - Prompt Engineering (Sahoo et al. 2024, arXiv)\n  - Context Engineering (Survey 2507.13334)\n  - DH Project Management (PM4DH, DHQ)\n  - Git in Research (Int. Journal of DH 2023)\n  - Agile Methods, Requirements Engineering, Prototyping\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
     ],
     "deny": [],
     "ask": []
