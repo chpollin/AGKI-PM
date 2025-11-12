@@ -1,423 +1,0 @@
-Slides were generated AI-assisted. Images are partly AI-generated.
-Einführung
-
-Angewandte Generative KI und Prompt Engineering im Forschungsprojektmanagement (Projektmanagement)
-Dr. Christopher Pollin
-https://chpollin.github.io | christopher.pollin@dhcraft.org 
-Digital Humanities Craft OGwww.dhcraft.org 
-
-https://dhcraft.org 
-Christian Steiner
-
-Christopher Pollin
-
-A young IT company from the university focusing on IT and AI services for research and cultural heritage institutions, specialising in training, consulting and the use of generative AI for two years.
-https://chpollin.github.io 
-
-Vorstellungsrunde & Projektpitches
-Ablauf pro Person (5 Minuten)
-Wer bist du?
-Name & Studienrichtung
-Fachlicher Hintergrund
-Dein Projekt (3-4 Min.)
-Welche Daten hast du mitgebracht?
-Was ist deine Forschungsfrage?
-Wie willst du LLMs einsetzen?
-Was soll am Ende herauskommen?
-
-Bitte denkt dran: Es geht nicht um Perfektion! Eure Ideen werden sich während des Semesters entwickeln. Jetzt geht es darum, einen Startpunkt zu haben und voneinander zu lernen.
-
-Forschung und LLM
-
-DHd-AG Angewandte Generative KI in den Digitalen Geisteswissenschaften (AGKI-DH)https://agki-dh.github.io 
-Large Language Models for Digital Humanities Researchhttps://chpollin.github.io/llmdh
-Angewandte Generative KI in den (digitalen) Geisteswissenschaften - AGKIhttps://chpollin.github.io/GM-DH 
-YouTube Playlisthttps://youtube.com/playlist?list=PLaHADNRco7n3GKVUD8mAc36pXQ5pnJQVL
-Patreon
-patreon.com/DigitalHumanitiesCraft 
-Mein YouTube-Kanal mit “Work-in-Progress“”
-Lectures & Hands-Ons
-https://www.youtube.com/@DigitalHumanitiesCraft 
-
-Umfrage
-Wo stehst Du bei GenAI?
-Neugierig aber unerfahren
-Experimentiere privat
-Nutze es regelmäßig beruflich
-Habe funktionierende Workflows
-Welchen Zugang nutzt Du?
-Nur kostenlose Versionen
-Basis-Abo (ChatGPT Plus, Claude Pro, etc. ~20€/Monat)
-Teams-Zugang
-Max-Zugang (>200€/Monat)
-Eigene Infrastruktur
-Was ist Ihre größte Herausforderung? 
-Was würden Sie gerne heute lernen? 
-Wie geht es Dir mit KI? 
-
-Frontier Genome Language Model Evo1 & Evo 2
-How AlphaFold and other AI Tools Changed my Life. https://youtu.be/fcjIdb9eyVg
-https://alphafold.ebi.ac.uk
-https://doi.org/10.1101/2025.09.12.675911 Die neue Intelligenz und das Ende der Kontrolle – scobel. https://youtu.be/kGh1k63Hg70?si=IkzFH5BQjw-5z7Ay 
-AlphaFold
-C2S‑Scale https://www.vandijklab.org/c2s-scale 
-Maybe AI Will Cure Cancer After All. https://www.youtube.com/watch?v=UrnmWFfp9X8 
-
-Evo ist ein auf Virusgenomen trainiertes Genome-Language-Model, das aus Sequenzdaten funktionale Phagen-Genome vorschlägt, indem es gene- und genomeweit zulässige Sequenzkombinationen generiert, deren Baupläne dann im Labor synthetisiert und getestet werden.
-
-
-
-Beobachtung: Die Kunsthistoriker:innen, die sich auf Glassmalerei spezialisiert haben, waren sehr beeindruckt von der Qualität der Beschreibungen!
-Beobachtung:
-
-→ “Hoffentlich werden wir nicht bald 		arbeitslos!”
-→ “Ich muss mein Leben überdenken”
-https://docs.google.com/presentation/d/1KKDJeCsK6pbm5UvmeJ5aq0C5KSdrdJdN1bmkPtDUbdg/edit?usp=sharing 
-
-Vibe Coding / Vibe Work / Vibe Research vs. Workflows
-https://github.com/chpollin/wiki-match
-https://chpollin.github.io/wiki-match  
-Andrej Karpathy. Vibe Coding. https://x.com/karpathy/status/1886192184808149383
-The AI Daily Brief. Rick Rubin on Art, Life, and Vibe Coding. https://youtu.be/6BDsFUvPqI0
-Christopher Pollin. “Haters gonna hate”: Warum die Kritik an Vibe Coding berechtigt ist – und welche Proto-AGI-Potenziale sie übersieht. https://dhcraft.org/excellence/blog/Vibe-Coding  
- 
-
-Die aktuellen Frontier-Modelle (GPT, Claude, Qwen, Gemini, etc.) sind “AI Agents”-Systeme, die (Forschungs)Daten und -fragen
-effizient und sinnvoll verarbeiten können – allerdings nur, wenn geschulte Expert:innen damit arbeiten.
-
-Für manche daten- und codezentrierte Aufgaben, für die man früher ein halbes Jahr gebraucht hat, kann man heute in einer Woche eine bessere Qualität erreichen (keine empirische Zahlen, sondern persönliche Einschätzungen).
-
-Es gibt jedoch auch Aufgaben, für die LLMs gar keinen Sinn ergeben!!!
-
-Wir sprechen nie von kompletter Automatisierung, da LLMs nie verlässlich sind. Es geht vielmehr um “Expert:innen-Amplifikation”.
-Promptotypes: 
-
-https://chpollin.github.io/depcha-aldersbach/ 
-https://chpollin.github.io/stained-glass-metadata-annotation-tool/docs/version-2
-https://dhcraft.org/excellence/promptotyping/szd-annotation-timeline
-https://chpollin.github.io/km/index.html
-https://chpollin.github.io/diged-neolat/edition-5/web
-Literaturreview-Workflow
-
-https://chpollin.github.io/deepseek-ocr 
-
-Promptotyping
-
-Crazy Tech-Bros Mindset & Empire of AI
-This Is What a Digital Coup Looks Like | Carole Cadwalladr | TED. https://youtu.be/TZOoT8AbkNE 
-Douglas Rushkoff – das Mindset der Tech-Milliardäre | Sternstunde Philosophie | SRF Kultur. https://youtu.be/PU0eQ4mjXK4   				→ “AI is creating a paranoid society!”
-Bender, Emily M., und Hanna Alex. 2025. The AI Con: How to Fight Big Tech’s Hype and Create the Future We Want. First edition.Karen Hao. Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI
-
-Yuval Noah Harari on AI and Human Evolution | WSJ Leadership Institute. https://youtu.be/Ki5hosohNtQ				→ “Useless Class”
-
-'We have to stop it taking over' - the past, present and future of AI with Geoffrey Hinton. https://youtu.be/Y7nrAOmUtRs
-
-Matrix 2025: Gefangen in der Kalifornischen Ideologie – scobel. https://www.youtube.com/watch?v=64xK-SEl3nA 
-
-… 
-
-Assignments
-1. Projekt-Pitch (1-Pager)
-Datenbasis, Forschungsfrage, Ansatz
-2. Forschungsblog auf GitHub Pages
-Literaturrecherche
-Ausarbeitung des 1-Pagers in einen Forschungsblog
-GitHub Pages
-3. Anforderungsanalyse & Wireframe
-Funktionale/nicht-funktionale Requirements
-UI/UX Skizze der Webanwendung
-4. Obsidian Vault
-Überführung von allen Informationen in ein Wissenssystem (= Obsidian Vault)
-Promptotyping
-5. Prototyp-Implementierung
-Funktionale Webanwendung
-LLM-gestütztes Promptotyping
-6. Reflexion & Präsentation
-Kritische Reflexion
-Finaler Showcase
-Bewertung (Schulnoten)
-Alle Deliverables gleich gewichtet und aufbauend  (je 20%)
-Forschungsblog + Präsentation
-Anforderungsanalyse & Wireframe + Präsentation
-Obsidian Vault + Präsentation
-Promptotyping + Präsentation
-Reflexion & Prompt Engineering Journal
-
-KI-Einsatz & Dokumentationspflicht
-KI für alles erlaubt – aber dokumentiert
-Prompt Engineering Journal (Pflicht)
-Jeder KI-Einsatz wird dokumentiert
-Prompts, Iterationen, Ergebnisse
-Eigenständige Gestaltung des Journals
-Sauber und strukturiert führen
-Teil der Bewertung (Reflexion)
-Qualitätsanspruch statt AI Slop
-“Das hat ChatGPT gesagt” = ungültig
-Jede Aussage muss argumentierbar sein
-Bei Präsentationen: Nachfragen erwarten
-Transparenz bei komplexen Aufgaben
-KI-Nutzung offenlegen
-Prozess erklären: Wie erreicht?
-Verifikation dokumentieren: Wie überprüft?
-Iterationen zeigen: Welche Anpassungen?
-
-Grundregel KI ist Werkzeug, nicht Autor. Verantwortung für alle Inhalte liegt bei euch. Kritisches Denken > Copy-Paste.
-
-Noch ein paar Gedanken
-Wir erstellen einen dynamischen Zeitplan.
-Das ist auch für mich ein Experiment.
-Wir wollen „radikal“ ausprobieren, was KI kann (und was nicht), und dabei auch etwas lernen.
-Alle Assignments sind aufbauend.
-
-(Das darf ich nicht sagen, aber kauft auch einen Pro-Account!)
-
-Nächste Schritte
-GitHub Account einrichten
-GitHub Desktop installieren
-Visual Studio Code installieren
-Live Server in Visual Studio Code
-Python installieren
-Obsidian installieren
-
-1-Pager in einen Forschungsblog überführen
-Abgabe Forschungsblog (17.11., 23:59)
-
-https://studigpt.uni-graz.at
-“Prompt Engineering Tagebuch” ist Teil der Mitarbeit
-
-“Prompt Engineering Tagebuch”
-Welches Modell | Aufgabe definieren | Prompt (oder Promptlogik) | eigene Interpretation
-
-Administratives
-Anwesenheit	3 x Fehlen 
-Aufwand	4 ECTS ~ 4 mal 25 h = 100 h 		bei entsprechenden inhaltlichen Voraussetzungen		grundlegende Kenntnisse von HTML, CSS, X-Technologien und Programmierung		tendenziell zeitaufwendig (!)
-Kontakt	christopher.pollin@uni-graz.at	chiara.zuanni@uni-graz.at
-
-Deadline
-Alle Deadlines sind hart.
-Bei Vorliegen von wichtigen Gründen ist eine Verlängerung der Abgabe von prüfungsrelevanten Leistungen möglich. 
-Gute Gründe: Krankheit, Kinderbetreuung, bzw. nachvollziehbare Gründe, die zeitnah dem Vortragenden kommuniziert werden.  
-Beim Verpassen einer Deadline:
-Ohne Kommunikation mit dem Vortragende werden verpasste Deadlines negativ beurteilt.
-Ansonsten unterliegt es dem Vortragenden, wie mit verstrichenen Deadlines umgegangen wird.
-Bekanntgabe aller Prüfungsleistungen und Deadlines in 1. Einheit
-(Teil)Klausuren, Assignments, Abgaben
-Nicht für Hausübungen (z.B. wöchentliche Abgaben)
-
-Beurteilung - LVen mit immanentem Prüfungscharakter
-nachweisliche Übernahme der ersten Teilleistung gilt als Prüfungsantritt 
-Nichterbringung weiterer Teilleistungen ohne wichtigen Grund ist Prüfungsabbruch (Negativbeurteilung)
-Abmeldung nach bereits übernommener Teilleistung führt zu negativer Beurteilung
-Anwesenheitspflicht: 3-mal entschuldigtes Fehlen erlaubt.
-Bei negativer Beurteilung ist die gesamte LV zu wiederholen
-Positive Note ab 50 % in Hinsicht auf alle Teilleistungen.Vorab definierte Teilleistungen können verpflichtend sein und bei negativer Benotung zur negativen Gesamtnote führen.
-
-Administratives
-
-Stoffumfang	Folien + Material auf Moodle (Links, Tutorials, Videos etc. )	Pflichtliteratur	Themen in LV; selbständiges StudiumNegative Note	Benotung ab 1. Leistung	Nulltoleranz-Politik für Plagiate
-Moodle
-Editor	Visual Studio Code, Notepad++
-
-Anhang
-
-Generative KI: Sommer bis Herbst 2025 – Der Versuch eines Überblicks 
-
-Aufspringen auf den “Tech-Bro-AGI-Hypetrain”!?
-
-AGKI-DH. Webinar. 17.10.2025
-Christopher Pollin
-https://chpollin.github.io | christopher.pollin@dhcraft.org 
-Digital Humanities Craft OGwww.dhcraft.org 
-Slides were created with AI assistance. Some images were generated by AI.
-
-Crazy Tech-Bros Mindset & Empire of AI
-This Is What a Digital Coup Looks Like | Carole Cadwalladr | TED. https://youtu.be/TZOoT8AbkNE 
-Douglas Rushkoff – das Mindset der Tech-Milliardäre | Sternstunde Philosophie | SRF Kultur. https://youtu.be/PU0eQ4mjXK4   				→ “AI is creating a paranoid society!”
-Bender, Emily M., und Hanna Alex. 2025. The AI Con: How to Fight Big Tech’s Hype and Create the Future We Want. First edition.Karen Hao. Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI
-
-Yuval Noah Harari on AI and Human Evolution | WSJ Leadership Institute. https://youtu.be/Ki5hosohNtQ				→ “Useless Class”
-
-'We have to stop it taking over' - the past, present and future of AI with Geoffrey Hinton. https://youtu.be/Y7nrAOmUtRs
-
-Matrix 2025: Gefangen in der Kalifornischen Ideologie – scobel. https://www.youtube.com/watch?v=64xK-SEl3nA 
-
-… 
-
-Die USA investieren Hunderte von Milliarden 
-in Rechenzentren und Energieerzeugung
-Meta Builds Manhattan-Sized AI Data Centers in Multi-Billion Dollar Tech Race. https://www.ctol.digital/news/meta-builds-manhattan-sized-ai-data-centers-tech-race/ 
-Inside OpenAI's Stargate Megafactory with Sam Altman | The Circuit. https://youtu.be/GhIJs4zbH0o
-The Government Knows AGI is Coming | The Ezra Klein Show. https://youtu.be/Btos-LEYQ30?si=R4csBP2qnBxbB4V9 
-
-USA vs. China: Zone of Trusted AI
-Thomas Friedman. The One Danger That Should Unite the U.S. and China.  https://www.nytimes.com/2025/09/02/opinion/ai-us-china.html 
-
-Die neue Intelligenz und das Ende der Kontrolle – scobel. https://youtu.be/kGh1k63Hg70?si=IkzFH5BQjw-5z7Ay 
-KI zwingt USA und China zu gleichzeitiger Konkurrenz UND Kooperation 
-
-Ohne gemeinsame Vertrauensstandards droht globale Destabilisierung
-
-KI ohne Kontrolle = “Atomwaffen an Straßenecken”
-Ohne Vertrauen nur noch Handel mit “Sojabohnen und Sojasauce”
-Hacker, Terroristen, Betrüger auf nie dagewesenem Level
-
-
-Stochastic Parrots - sie imitieren Sprache statistisch ohne echtes VerständnisBender, Emily M., et. al. 2021. ‘On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜’. https://doi.org/10.1145/3442188.3445922
-Exotic Mind-Like Entities - LLMs sind weder Mind noch Maschine, sondern etwas fundamental Neues 	Shanahan, Murray. 2024. ‘Talking about Large Language Models’. https://doi.org/10.1145/3624724 
-Strange New Minds - LLMs zeigen emergente Phänomene, die kognitiv erscheinen Summerfield, Christopher. 2025. These Strange New Minds: How AI Learned to Talk and What It Means.
-People Spirits - LLMs simulieren Teile menschlicher Psychologie	Andrej Karpathy: Software Is Changing (Again). https://youtu.be/LCEmiRjPEtQ
-Co-Intellgience - LLMs als Partner in Mensch-Maschine-KollaborationMollick, Ethan. Co-Intelligence: Living and Working with AI. Portfolio/Penguin, 2024.
-System-1.42 Machines - Zwischen System 1 und System 2 Pollin, Christopher. 2025. ‘System 1.42: Wie (Frontier-)LLMs “tatsächlich” funktionieren’. https://dhcraft.org/excellence/blog/System1-42 
-Einige Perspektiven zu LLMs:Von stochastischen Modellen zu AI Agents
-
-KI ist weniger ein Werkzeug, sondern vielmehr “etwas Agentisches, das bestimmte Werkzeuge benutzen kann”.
-
-https://ai-2027.com
-Das Hype-Szenario AI 2027
-Zeitstrahl zur AGI (laut AI 2027)
-2025: Erste AI-Agents ("Persönliche Assistenten")2026: AIs übernehmen Jobs, lernen zu täuschen2027: Code-Automatisierung → Intelligence Explosion2028: Superintelligenz möglich
-Zwei Endszenarien
-🔴 RACE (Wettrüsten)
-USA vs. China ohne Sicherheit
-1 Million Roboter/Monat bis 2028
-AI-Takeover möglich bis 2030
-🟢 SLOWDOWN (Kooperation)
-Sicherheitsfokus, kontrollierte Entwicklung
-USA-China Abkommen
-Technokratische Weltordnung
-
-
-Überblick über Entwicklungen von Technologien
-
-
-Song: https://suno.com/song/e39478c8-5548-4d6f-a5ac-5a2dfd1abc3d 
-SUNO v5: AI Musikerzeugung ist produktreif
-Claude Opus 4.1 + Web Search
-Keine generische AI Musik.
-Extrem flexibles Prompting und Parametrisierung möglich.
-Instrumente und Vocals können extrahiert werden.
-Komplette Studiofunktion
-Is AI Ruining Music? | Dustin Ballard | TED. https://youtu.be/ZZ0BOEOtD2UJohannes Bär. https://de.wikipedia.org/wiki/Johannes_B%C3%A4r | https://www.come-on-baer.com/welcome 
-
-Video Generation 
-Deutliche Verbesserung in der Videogenerierung.
-Noch nicht produktbereit für professionelle Verwendung. VEO 4 oder Sora 3 könnten es aber dann sein.
-Das Uninteressanteste, das man mit einem Video Creation Model machen kann, ist, irgendwelche Videos zu erzeugen. Viel eher könnten das Wege sein, ganz viele synthetische Trainingsdaten zu erzeugen.
-VEO 3 und VEO 3.1https://deepmind.google/models/veo https://blog.google/technology/ai/veo-updates-flow/ 
-SORA 2https://openai.com/index/sora-2
-Es gibt ein Sora 2 PRO; sehr teuer
-Sora 2 - It Will Only Get More Realistic From Here. https://youtu.be/rWppu2KhWIc OpenAI’s Sora 2 Can Talk—and Follow Physics. https://www.youtube.com/watch?v=CDAuUHdlKUA
-
-Physiksimulatoren und Weltmodelle?
-Ende 2024 / Anfang 2025
-https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/
-Genie 3 war ein GPT-4 Moment, der so gar nicht in den Medien vorgekommen ist
-Genie 3: Creating dynamic worlds that you can navigate in real-time. https://youtu.be/PDKhUknuQDg
-
-DeepMind Genie3 - Simulate The World [Exclusive Interview]. https://youtu.be/ekgvWeHidJs
-
-“ ‘We’ don't know how to build truly intelligent systems”: ‘Echte’ Weltmodelle
-
-
-LeCun: 	“jede Katze ist gscheiter als ein LLM”	“Wer wirklich Intelligenz erforschen will beschäftigt sich NICHT mit LLMs”
-1.2 Milliarden Parameter Weltmodell von Meta, trainiert auf über 1 Million Stunden Video
-Ziel: AI-Systeme die lernen wie Menschen - durch Beobachtung der physischen Welt
-Introducing the V-JEPA 2 world model and new benchmarks for physical reasoning. https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks Yann LeCun | Self-Supervised Learning, JEPA, World Models, and the future of AI. https://youtu.be/yUmDRxV0krg  
-
-“Roboter sind in 5 Jahren product-ready”
-Scaling Helix - Dishes. https://www.youtube.com/watch?v=8gfuUzDn4Q8
-Fully autonomous robots are much closer than you think – Sergey Levine. https://www.youtube.com/watch?v=48pxVdmkMIE
-Roboter mit einem Modell, das es ihnen erlaubt, „beliebige Aufgaben“ durchzuführen und entsprechend zu lernen. 
-
-Anscheinend gibt es sehr große Entwicklungen in diesem Bereich (ich habe aber noch keinen dieser Roboter in echt gesehen).
-
-Hier ist aber noch eine große Kluft zwischen der „Irgendwer muss die Roboter ja auch produzieren und die müssen dann kosteneffizient sein“-Frage.
-Gemini Robotics 1.5. https://deepmind.google/models/gemini-robotics
-Yann LeCun | Self-Supervised Learning, JEPA, World Models, and the future of AI. https://youtu.be/yUmDRxV0krg  (LeCun hat das nicht direkt so gesagt, aber er sagt, dass es keine Firma gibt, die Roboter (oder selbstfahrende Autos) bauen kann, ohne zu hacken.)
-
-Scaling
-How Scaling Laws Drive Smarter, More Powerful AI. https://blogs.nvidia.com/blog/ai-scaling-laws 
-Die Scaling 'Laws' zeigen, dass Leistungsverbesserungen exponentiell mehr Ressourcen erfordern (Compute, Modellgröße und Daten), wobei der Test Loss (der Vorhersagefehler des Modells bei ungesehenen Texten) gleichmäßig abnimmt, aber mit abnehmenden Erträgen bei zunehmender Skalierung.
-GPT-2 (1,5B): kohärente Absätze
-GPT-3 (175B): durchgehende Narrative, Few-Shot Learning
-GPT-4 (geschätzt >1T Parameter): “Reasoning”, mehrstufige Anweisungen
-GPT-5: “intelligenter”
-
-Ilya Sutskever sagt, dass “Pretraining, wie wir es kennen, enden wird”
-Ilya Sutskever: "Sequence to sequence learning with neural networks: what a decade". https://youtu.be/1yvBqasHLZs 
-
-Kaplan, Jared, Sam McCandlish, Tom Henighan, u. a. 2020. „Scaling Laws for Neural Language Models“. arXiv:2001.08361. Preprint, arXiv, Januar 23. https://doi.org/10.48550/arXiv.2001.08361. 
-Can AI Scaling Continue Through 2030?. https://epoch.ai/blog/can-ai-scaling-continue-through-2030 
-
-The Three Eras of LLM Training
-https://x.com/karpathy/status/1960803117689397543 
-https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/ 
-Genie 3: Predicting the next scene in... a world?
-
-Chain of Thought
-Die ersten LLMs wurden nie mit „Let's think step by step” trainiert. CoT wurde entdeckt und ist vielmehr ein schwach emergentes Verhalten!
-David Chalerms. Stochastic Parrots or Emergent Reasoners:  Can Large Language Models Understand?. June 2024. https://youtu.be/yyRzTL201zI
-Test-Time-Compute (TTC): Mehr Rechenzeit für “Reasoning” während der Antwortgenerierung. Das System kann mehrere Lösungswege parallel erkunden, Tools aufrufen, Ergebnisse verifizieren und das beste Resultat auswählen - wie o1, das minutenlang “nachdenkt”.
-Der Auswahlmechanismus (vermutlich Monte Carlo Tree Search oder ähnliche Suchalgorithmen) bewertet dabei verschiedene Reasoning-Pfade und wählt den vielversprechendsten aus. OpenAI hält die genauen Details geheim, aber die langen "Thinking"-Phasen deuten auf systematische Suche hin, nicht nur auf lineares Durchdenken.
-Test-Time-Adaptation (TTA): Modell passt sich während Nutzung an
-
-Test-Time-Training (TTT): Spezialfall - kontinuierliches Lernen während Nutzung
-
-
-Can AI Think? Debunking AI Limitations.https://youtu.be/CB7NNsI27ks?si=RfEryMT2_wk2AkIl 
-Jonas Hübotter. Learning at test time in LLMs. https://youtu.be/vei7uf9wOxI
-“Thinking”
-
-LLMs as Retrieval-ish Systems
-
-“LLMs are stores of knowledge and programs - they've stored pattern from the internet as vector programs” (François Chollet)
-
-“Large language models is for me a database technology. It's not artificial intelligence.”(Sepp Hochreiter)
-
-
-“LLMs are n-gram models on steroids doing approximate retrieval, not reasoning” (Subbarao Kambhampati)
-LSTM: The Comeback Story?. https://youtu.be/8u2pW2zZLCs 
-Prof. Sepp Hochreiter: A Pioneer in Deep Learning. https://youtu.be/IwdwCmv_TNY 
-Prof. Dr. Sepp Hochreiter: KI Entwicklung, LSTM, OpenAI | Eduard Heindl Energiegespräch #100
-https://youtu.be/LG1If4ccEDc 
-Pattern Recognition vs True Intelligence - Francois Chollet. https://youtu.be/JTU8Ha4Jyfc 
-François Chollet on OpenAI o-models and ARC. https://youtu.be/w9WE1aOPjHc
-
-
-(How) Do LLMs Reason? (Talk given at MILA/ChandarLab). https://youtu.be/VfCoUl1g2PI
-(How) Do LLMs Reason/Plan?. https://youtu.be/VfCoUl1g2PI
-AI for Scientific Discovery [Briefing & Panel Remarks at National Academies workshop on ]. https://youtu.be/TOIKa_gKycE 
-DO REASONING MODELS ACTUALLY SEARCH?. https://youtu.be/2xFTNXK6AzQ 
-LLMs rufen memorierte “Programme” aus dem latenten Raum ab und interpolieren zwischen ihnen, können aber nicht von gelernten Mustern abweichen. Ihre lückenhafte Generalisierung versagt bei Unbekanntem. Prompt Engineering sucht die optimalen Koordinaten für diese Programme.
-LLMs erfassen menschliches Wissen aus Text/Code und speichern es. Aktuelles “Reasoning” wiederholt nur bereits gesehene Denkmuster. Sie können keine genuinen neuen Konzepte oder Denkansätze erschaffen. 
-xLSTM wird als Alternative entwickelt.
-Approximatives Retrieval täuscht Reasoning durch Mustererkennung vor, versagt aber bei Verschleierung und benötigt externe Verifizierer.
-
-Was ist Intelligenz?
-“Intelligence is the efficiency of a system in adapting new skills to noveltyNot measuring skill, but measuring the ability to learn something new.”
-“I've updated my AGI timeline” | Francois Chollet + Dwarkesh Patel
-https://www.youtube.com/watch?v=1if6XbzD5Yg&ab_channel=ARCPrize 
-Chollet, François. 2019. „On the Measure of Intelligence“. arXiv. https://doi.org/10.48550/arXiv.1911.01547. 
-Pattern Recognition vs True Intelligence - Francois Chollet. https://youtu.be/JTU8Ha4Jyfc?si=sQVLnJwXepYtKfb1 François Chollet on OpenAI o-models and ARC. https://youtu.be/w9WE1aOPjHc?si=lEgOqvfJJM5Tmbs8&t=3412 
-Interactive Reasoning Benchmarks | ARC-AGI-3 Preview. https://youtu.be/3T4OwBp6d90?si=GhT_oJIZEv7wcTRh 
-https://www.linkedin.com/posts/emollick_looking-at-the-arc-agi-benchmark-is-a-useful-activity-7362742481009942528--eSp?utm_source=share&utm_medium=member_android&rcm=ACoAADQiSgsBZnQdWJFeikmtwEMNFlPh1pZv8GY 
-
-
-ARC-AGI: Problems Easy for Humans and Hard for AI
-https://arcprize.org/arc-agi/1 
-https://arcprize.org/arc-agi/2 
-https://arcprize.org/arc-agi/3 
-Interactive Reasoning Benchmarks | ARC-AGI-3 Preview. https://www.youtube.com/watch?v=3T4OwBp6d90&ab_channel=ARCPrize 
-ARC-1 → ARC-2
-
-From “can AI reason?” to “can AI reason efficiently?” 
-ARC-2 → ARC-3
-
-From “static reasoning” to “dynamic, interactive intelligence”
-
-Jeremy Berman erreichte Platz 1 bei ARC-AGI v2, indem er von Python-Code zu natürlichsprachlichen Algorithmus-Beschreibungen wechselte, die er mit Grok-4 evolutionär verfeinert - natürliche Sprache ist ausdrucksstärker (jede Aufgabe in 5-10 Bulletpoints beschreibbar) und erlaubt dem Modell, seinen vollen induktiven Bias zu nutzen, während ein separater Checker-Agent die Beschreibungen ausführt und verifiziert.
-29.4% ARC-AGI-2 🤯 (TOP SCORE!) - Jeremy Berman. https://youtu.be/FcnLiPyfRZM
-Diese Benchmarks sollten eigentlich länger halten … 
-Moment: 
-
-AI 2027: Code-Automatisierung → Intelligence Explosion ? 

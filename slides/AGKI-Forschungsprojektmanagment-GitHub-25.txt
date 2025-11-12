@@ -1,330 +1,0 @@
-Slides were generated AI-assisted. Images are partly AI-generated.
-Git und GitHub
-
-Angewandte Generative KI und Prompt Engineering im Forschungsprojektmanagement (Projektmanagement)
-Dr. Christopher Pollin
-https://chpollin.github.io | christopher.pollin@dhcraft.org 
-Digital Humanities Craft OGwww.dhcraft.org 
-
-GitHub
-Datenkrake (Microsoft)
-“I’m an egotistical bastard, and I name all my projects after myself. First ‘Linux’, now ‘Git’.” 
-– Linus Torvalds, https://de.wikipedia.org/wiki/Git 	[Git ~ Blödmann]
-
-Git ist ein freies, verteiltes Versionsverwaltungssystem für Dateien.
-
-Lernziele
-Die Grundlagen von Git verstehen.
-GitHub Desktop kennenlernen und grundlegende Workflows anwenden.
-Projektmanagement-Funktionen in GitHub nutzen (Issues, Labels, etc.) und Best Practices erlernen.
-Möglichkeiten der Dokumentation in GitHub nutzen und Best Practices kennenlernen.
-Ein Verständnis dafür entwickeln, wie Git und GitHub den Projektmanagementprozess in verschiedenen Phasen unterstützen können.
-
-[Schwerpunkt nicht auf Programmierer*innen, sondern DH Projekte]
-
-Git und seine Grundprinzipien
-Open HPI: Let’s Git - Versionsverwaltung und OpenSource, https://open.hpi.de/courses/git2020 [Sehr guter und niederschwelliger Onlinekurs] 
-Blischak, J. D., Davenport, E. R., & Wilson, G. (2016). A quick introduction to version control with Git and GitHub. PLoS computational biology, 12(1), e1004668. [Paper für Übersicht]
-Git and GitHub Introduction, https://www.w3schools.com/git/git_intro.asp?remote=github[Tutorial]
-Git and GitHub Tutorial For Beginners | Full Course [2021] [NEW], https://www.youtube.com/watch?v=3fUbBnN_H2c&ab_channel=Amigoscode [Youtube-Einführung, aber für Programmierer*innen]
-
-
-Begriffe
-Was ist eine Datei?z.B. Text (.txt), Bild (.jpg), Musik (.mp3), TEI XML (.xml), JavaScript (.js) …
-
-	
-
-<?xml version="1.0" encoding="UTF-8"?><memo>  <body>     <p>Yoda says,       “For your support thank I must!”
-     </p>
-  </body>
-</memo>
-<?xml version="1.0" encoding="UTF-8"?><memo>  <body>     <p>Yoda says,        <q>For your support thank I must!<q>
-     </p>
-  </body>
-</memo>
-
-Version 1
-Version 2
-Was ist eine Version?	Eine Version beschreibt den Inhalt einer Datei zu einem bestimmten Zeitpunkt. 	Die Änderung einer Datei erzeugt eine neue Version.
-
-Begriffe
-Was ist Versionskontrolle?	Ermöglicht die Verwaltung verschiedener Versionen von Dateien.	Erlaubt einen “Blick zurück” durch die Versionen von Dateien.
-https://open.hpi.de/courses/git2020 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Lokaler Rechner
-Staging
-Git ist ein freies, verteiltes Versionsverwaltungssystem für Dateien
-Working Directory
-Commit History
-memo.xml
-git add memo.xml
-git commit
-Commit
-Commit
-Commit
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Staging
-Commit
-Commit
-Commit
-git push
-git pull
-git pull
-Lokaler Rechner
-Remote-Server
-Lokaler Rechner und Remote-Server
-
-Git Befehle
-$ git addDatei (in ihrem gegenwärtigen Zustand) zum nächsten Commit hinzufügen (Staging)$ git commitAlles was in Staging ist, kommt als Commit in das Repository (Commit History)
-$ git pushWird verwendet, um Inhalte aus einem lokalen Repository in ein Remote-Repository hochzuladen.
-$ git cloneÜber eine URL ein neues Repository kopieren.
-$ git pullDer pull-Befehl wird verwendet, um Inhalte aus einem Remote-Repository herunterzuladen und unverzüglich das lokale Repository zu aktualisieren, damit die Inhalte übereinstimmen.
-
-
-
-
-https://education.github.com/git-cheat-sheet-education.pdf 
-https://www.atlassian.com/de/git/tutorials/syncing 
-$ git fetchDamit werden Commits, Dateien und Verweise aus einem Remote-Repository in das lokale Repository heruntergeladen.
-$ git mergeDie heruntergeladenen Dateien etc. werden mit den lokalen zusammengeführt. 
-
-
-Grundprinzipien von Git
-Snapshots statt Unterschiede 
-Fast jede Operation ist lokal 
-Git stellt Integrität sicher
-Git fügt im Regelfall nur Daten hinzu
-Die drei Zustände	 (modified, staged, commited)		
-https://git-scm.com/book/de/v2/Erste-Schritte-Was-ist-Git%3F 
-
-Arbeiten mit GitHub
-GitHub Desktop Quick Intro For Windows, https://www.youtube.com/watch?v=77W2JSL7-r8 [Kompaktes Einführungsvideo auf Youtube für GitHub Desktop]
-An Intro to Git and GitHub for Beginners (Tutorial), https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners [Command line only]
-Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git, https://www.youtube.com/watch?v=Uszj_k0DGsg 
-
-Command Line vs. GUI Clients
-GitHub DesktopPlatforms: Mac, WindowsPrice: Free
-Git ExtensionsPlatforms: Linux, Mac, WindowsPrice: Free
-https://git-scm.com/downloads/guis 
-TortoiseGitPlatforms: WindowsPrice: Free
-GitKrakenPlatforms: Linux, Mac, WindowsPrice: Free / $29 / $49
-https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html 
-
-GitHub Desktop
-https://desktop.github.com/download 
-
-Gemeinsames Hands-On: “mein memo.xml” 
-Erzeugen Sie einen neuen Ordner mit dem Namen GitHub. (Z.B.: C:\Users\pollin\Documents\GitHub) 
-Legen Sie innerhalb des Ordners GitHub einen Ordner “PM_DH22” an.
-Öffnen Sie GitHub Desktop.
-Clonen Sie das Repository https://github.com/chpollin/PM_DH22 
-das Repositoryheißt “PM_DH22”.
-das entspricht dem Befehl$ git clone
-In unserem neuen Ordner befinden sichjetzt alle Daten - lokal bei uns -aus dem Repository. 
-
-Gemeinsames Hands-On: “mein memo.xml” 
-
-Erstellen Sie eine neue XML bzw. verändern Sie helloworld_template.xml, benennen Sie es um und speichern Sie es  - Datei mit folgender Struktur und Ihrem Vornamen.<?xml version="1.0" encoding="UTF-8"?><memo>  <body>     <p>Hello Git from Christopher</p>  </body></memo>
-Legen Sie die Datei mit dem Dateinamen helloworld_VORNAME.xml in Ihrem lokalen Ordner PM_DH22\xml ab. 
-
-Wenn die neue Datei angelegt wurde, erscheinen folgende Änderungen in GitHub Desktop auf.
-Jeder Commit muss immer eine Nachricht beinhalten. Damit soll ausgedrückt werden, was Sie gerade bearbeitet oder hinzugefügt haben.
-
-Die Dateien befinden sich in der Staging Area.
-Mit dem Button “Commit to main” wird git commit aktiviert und der Commit kommt in die Commit History. 
-
-Jetzt muss das Ganze noch in das Repository (Test-Training-Repo) gepusht werden - git push aktiv.
-
-Unsere Dateien sind jetzt auf dem Server.
-
-In der History in GitHub Desktop bzw. auf der Webseite https://github.com/chpollin/PM_DH22/tree/main/xml  können wir die Commits einsehen.
-
-
-
-$ git fetch
-Gleichen Sie ab: Gibt es was Neues bei uns lokal? Gibt es etwas Neues im Repository am Server? 
-
-
-Bearbeiten Sie nun das XML-Dokument von Ihrer/Ihrem alphabetisch nächsten Kollegin/Kollegen. Fügen Sie eine Kleinigkeit hinzu, wie z.B. ein zweites <p> mit dem Text “Greetings from Christian”.
-<?xml version="1.0" encoding="UTF-8"?><memo>  <body>     <p>Hello Git from Christopher</p>     <p>Greetings from Christian</p>  </body></memo>
-
-Es könnte jetzt zu einem Konflikt gekommen sein, weil zwei Personen gleichzeitig dieselbe Datei bearbeitet haben.
-“Git can handle most merges on its own with automatic merging features. A conflict arises when two separate branches have made edits to the same line in a file, or when a file has been deleted in one branch but edited in the other. Conflicts will most likely happen when working in a team environment.”
-
-https://github.com/chpollin/PM_DH22 
-
-“The Perfect Commit”
-Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git, https://www.youtube.com/watch?v=Uszj_k0DGsg 
-Jeder Commit gehört zu einem Thema. Themen sollten nicht in den gleichen Commits gemischt werden.
-Commit: Annotation der Personen im XML/TEI
-Überarbeitung des msDesc im teiHeader
-Das XSLT zur Normalisierung von X
-→ nur die Dateien ankreuzen, die zum Thema passen.
-→ gemeinsame Regeln definieren, was ein Commit ist. 
-Commit-Message
-Kleine Zusammenfassung
-“Kurz und knackig” & effektiv
-Ungewöhnliches und Wichtiges explizieren
-→ gemeinsame Regeln definieren, wie eine Commit-Message aufgebaut sein muss.
-
-GitHub als Software Engineering Tool
-GitHub Projects Demo: Automation, Kanban, Scrum, Issues, Pull Request, Milestones, Issues, Tasks, https://www.youtube.com/watch?v=YxKhb3fxtsU 
-GitHub Issues, https://docs.github.com/en/enterprise-server@3.5/issues 
-Labels and Milestones, https://docs.github.com/en/enterprise-server@3.5/issues/using-labels-and-milestones-to-track-work/managing-labels 
-Managing Project Boards, https://docs.github.com/en/enterprise-server@3.5/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards 
-
-Issues
-https://github.com/KlassikStiftungWeimar/Test-Training-Repo/issues/3 
-
-Milestones
-https://github.com/chpollin/PM_DH22/milestone/1 
-
-Beispiele
-Consulting Schönberg Editionhttps://github.com/chpollin/Schoenberg/issues 
-Interne Arbeit in DHCrafthttps://github.com/DigitalHumanitiesCraft/Projects/issues 
-Stefan Zweig digitalhttps://github.com/chpollin/SZD/issues 
-
-Projects
-https://github.com/KlassikStiftungWeimar/Test-Training-Repo/projects/1 
-
-Hands-On: Issue anlegen
-Legen Sie ein Issue an und assignen Sie jemanden, der/die eine Änderung in einem der vielen helloworld_xxx.xml machen soll.
-Fügen Sie ein Label und einen Milestone hinzu.
-Die zugeordnete Person führt den Issue aus, committet die Änderung und referenziert mit #ISSUE ID auf das zugehörige Issue. 
-Pushen Sie die Änderung.
-Fügen Sie ein Comment hinzu und schließen Sie das Issue.
-
-
-
-“The best Issue”
-Simpel, prägnant und beschreibend
-Einheitliche Formatierung
-Bearbeitbar / Durchführbar
-Relevant
-Kontext
-Problem oder Idee
-Lösung und nächste Schritte
-How We Write Github Issues, https://wiredcraft.com/blog/how-we-write-our-github-issues/ 
-
-https://github.com/DigitalHumanitiesCraft/Projects/commit/5e9e5c05eecc19fa2eca9d45456ac3f89b29e8c5 
-https://github.com/DigitalHumanitiesCraft/Projects/issues/18 
-
-GitHub und Dokumentation	
-Introduction to Markdown, https://www.geeksforgeeks.org/introduction-to-markdown/ 
-Markdown Cheat Sheet. A quick reference to the Markdown syntax, https://www.markdownguide.org/cheat-sheet/ 
-Markdown Tips & Tricks 2022 - Markdown Crash Course, https://www.youtube.com/watch?v=ftOBvusMHjQ 
-Markdown Crash Course, https://github.com/codeSTACKr/markdown-crash-course 
-
-Markdown
-
-Überschriften, Text, ungeordnete Liste, Code Block
-
-Absätze, geordnete Liste, Schriftauszeichnung (kursiv & fett)
-
-https://github.com/KlassikStiftungWeimar/Test-Training-Repo/blob/main/documents/cheatsheet.md 
-Blockzitate, Links, Bilder, Tabellen, Inhaltsverzeichnis
-
-README.md zur Dokumentation
-https://github.com/chpollin/PM_DH22 
-
-About READMEs, https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes  
-
-Wiki: Beispiel Kodierungsregeln
-https://github.com/chpollin/Schoenberg/wiki/Kodierungsregeln About wikis, https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis 
-
-Hands-On: Markdown
-Erstellen Sie eine neue Wiki Page (mit ihrem Namen). Probieren Sie Markdown aus → Überschrift, Liste und eine Code Snippet (memo.xml). 
-
-Git Branches
-
-Branches
-CommitUpdate cheatsheet.md
-Commitadding xml_snippet.xml
-CommitUpdate cheatsheet.md
-Commitadd schoenberg edition example
-00dd9f48fe57728084791bb636962837f64009b6
-b77361c6662a88f3d9ffb6c9932a5a114eb15300
-35433b1736f1050b086a243a85f1890d5e57a1ed
-34301044aeabc74273e367cfb71ed57e6fff9ad1
-main
-
-Branches
-https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell 
-
-Branches und Pull request
-https://github.com/KlassikStiftungWeimar/Test-Training-Repo/pulls 
-3 <bibl> in einer Datei im teiHeader branch hinzugefügt
-1 fehlendes <p> im teiBody branch
-merge pull request 1 → 3 <bibl> aus teiHeader branch nach main
-merge pull request 2 → 1 <p> aus teiBody branch nach main
-
-
-Hands-On: eigener Branch
-Erzeugen Sie einen neuen Branch mit Ihrem Namen (z.B.: “christopher”).
-Nehmen Sie eine Änderung im XML/TEI vor: https://github.com/KlassikStiftungWeimar/Test-Training-Repo/tree/main/digital_edition_schoenberg_example/sample_letter 
-Committen Sie “lustig drauflos”, damit jede/r einen Konflikt bekommt, den wir dann bereinigen (oder auch nicht) bereinigen können.
-
-Merge Conflicts
-About merge conflicts, https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts 
-Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git, https://www.youtube.com/watch?v=Uszj_k0DGsg 
-
-Merge Conflicts
-About merge conflicts, https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts 
-Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git, https://www.youtube.com/watch?v=Uszj_k0DGsg 
-
-“Branching Strategies”
-Mainline Development
-Immer integrierend sein → achten Sie darauf, dass Sie Ihre Inhalte gut, zügig und ordentlich mit der Arbeit Ihrer Kolleginnen/Kollegen zusammenführen.
-Wenig Branches
-Kleine Commits
-State, Releases, and Feature Branches
-
-Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git, https://www.youtube.com/watch?v=Uszj_k0DGsg 
-
-
-Blogpost:
-https://hadihariri.com/2020/10/14/a-few-words-on-git/ 
-
-Kritik an Git
-
-Dinge, die wir nicht besprochen haben…
-$ git initUm einen lokalen Ordner zu einem Git Repository zu machen.
-Fork a repoEine eigene Kopie eines existierenden Repos, um es selbst weiter zu bearbeiten. 
-GitHub Actions
-weitere Tools (z.B. GitKraken)
-
-
-Git bzw. GitHub installieren
-Distribution Ubuntu 	Paketverwaltungstool: apt 	$ apt-get install gitmacOS	Xcode Kommandozeilen-Tools 	$ git --version 
-Windows	Binärer Installationsassistent, https://git-scm.com/download/winOder GitHub Desktop https://desktop.github.com/ 
